@@ -81,12 +81,13 @@ body
     font-size: 32pt;
     font-weight: lighter;
     text-align: left;
+    margin: 1em auto 0 auto;
 }
 
 .main h2
 {
     font-family: 'Raleway', sans-serif;
-    margin: 1em auto auto auto;
+    /*margin: 1em auto auto auto; */
     /* padding: 0px;
     margin: 0px; */
     font-size: 18pt;
