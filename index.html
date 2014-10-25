@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<!-- Personal website! By Helen! -->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Helen Oleynikova</title>
+  </head>
+  <body>
+    <div class="header">
+        <h1>Helen Oleynikova</h1>
+    </div>
+    
+    <div class="main">
+        <div class="content">
+            <img src="images/small_portrait.jpg">
+            <p  class="intro">Hey! I'm Helen. I'm a redhead with blue glasses. 
+            I'm also a second-year Master's student at <a href="http://www.ethz.ch">ETH Zürich</a>, 
+            where I study Robotics, Systems, and Control.</p>
+            <p class="intro">I did my Bachelor at <a href="http://www.olin.edu">Olin College of Engineering</a> near Boston, where I also studied robotics.</p>
+            <p class="intro">I also worked at <a href="http://goo.gl/maps/UWCPy">Google</a> on Street View for 2 years after my Bachelor.</p>
+            <p>[<a href="mailto:helenoleynikova at gmail dot com">helenoleynikova at gmail dot com</a> | <a href="https://github.com/helenol">github</a>]</p>
+        </div>
+
+        <div class="content">
+            <h1>Publications</h1>
+            <a name="reactive"></a>
+            <p>Helen Oleynikova, Dominik Honegger, and Marc Pollefeys. “<b>Reactive Avoidance Using Embedded Stereo Vision for MAV Flight</b>”. In Submission To <i>Proc. IEEE Int. Conf. on Robotics and Automation (ICRA)</i>, May 2015.</p>
+            <a name="fpga"></a>
+            <p>Dominik Honegger, Helen Oleynikova, and Marc Pollefeys. “<b>Real-time and Low Latency Embedded Computer Vision Hardware Based on a Combination of FPGA and Mobile CPU</b>”. In <i>IEEE Int. Conf. on Intelligent Robots and Systems (IROS)</i>, September 2014.<br>
+            [<a href="publications/IROS_2014_realtime_lowlatency_hardware.pdf">pdf</a> | <a href="http://scholar.google.ch/scholar.bib?q=info:bhtZ0rJx8aQJ:scholar.google.com/&output=citation&hl=en&ct=citation&cd=0">bibtex</a> | video]</p>
+            <a name="oceans"></a>
+            <p>Elena Oleynikova, Nicole Lee, Andrew J. Barry, Joseph Holler, David Barrett, “<b>Perimeter Patrol On Autonomous Surface Vehicles Using Marine Radar</b>”. In <i>Proceedings of Oceans ’10 IEEE Sydney</i>, May 2010.<br>
+            [<a href="publications/oceans_2010_perimeter_patrol.pdf">pdf</a> | <a href="http://scholar.google.ch/scholar.bib?q=info:odxYPUDcpgkJ:scholar.google.com/&output=citation&hl=en&ct=citation&cd=0">bibtex</a> | <a href="https://www.youtube.com/watch?v=pTDT7HkfwJM">video</a>]</p>
+        </div>
+
+        <div class="content">
+            <h1>Selected Projects</h1>
+            <h2>ETH Zürich</h2>
+            <div class="project-right">
+                <img src="images/quad_small.jpg">
+                <p><b class="title">High-Speed Vision for Quadrotors</b> - [<a href="#reactive">paper 1</a> | <a href="#fpga">paper 2</a>]</p>
+                <p>I integrated a high-speed vision system on FPGA onto a quadrotor system and designed a system for doing high-speed obstacle avoidance on a computationally constrained platform. I also wrote position estimators and position controllers to allow the quad to operate indoors and outdoors without GPS or Vicon using the <a href="https://pixhawk.org/modules/px4flow">PX4 optical flow</a> sensor. I also wrote calibration and processing for the Android-based mobile platform on the FPGA vision system.</p>
+            </div>
+            <h2>Google</h2>
+            <div class="project-left">
+                <img src="images/sv_small.jpg">
+                <p><b class="title">Street Number Detection from Street View Imagery</b></p>
+                <p>I worked on the pipeline used to automatically detect and transcribe street numbers from imagery in order to improve maps data.</p>
+            </div>
+            <div class="project-right">
+                <img src="images/sv2_small.jpg">
+                <p><b class="title">Automatic Image Enhancement for Older Imagery</b></p>
+                <p>We created a system for automatically enhancing images using single-image HDR techniques. Learned ideal parameters for the algorithm by training a classifier based on data from a user study of preferences.</p>
+            </div>
+            <div class="project-left">
+                <img src="images/sv3_small.jpg">
+                <p><b class="title">Classification of Landmark Imagery</b></p>
+                <p>Designed features and trained classifiers for automatically detecting several types of attractive or important landmark imagery. For example, collected data and chose features for classifying imagery that looks over water or shows a city skyline.</p>
+            </div>
+
+            <h2>Willow Garage</h2>
+            <div class="project-right">
+                <img src="images/turtlebot_arm_small.png">
+                <p><b class="title">TurtleBot Arm - Calibration and Applications</b> - [<a href="http://wiki.ros.org/turtlebot_arm?distro=electric">website</a>]</p>
+                <p>Worked on a low-cost robot arm for hobbyist robotics. Built a system for robust camera-to-arm calibration, created documentation and assembly instructions for hobbyists, and created tools and demos.</p>
+            </div>
+            <div class="project-left">
+                <img src="images/vslam_small.jpg">
+                <p><b class="title">Visual SLAM</b> - [<a href="http://wiki.ros.org/vslam">website</a> | <a href="https://www.youtube.com/watch?v=TR8BMZj-Udc">video</a>]</p>
+                <p>Worked on implementation of Visual SLAM (Simultaneous Localization and Mapping using on stereo image data) in ROS (Robot Operating System). Developed and refined API, wrote documentation, and implemented new features such as integration of pointcloud matches from laser-based sensors into Visual SLAM.</p>
+            </div>
+
+            <h2>Olin College</h2>
+            <div class="project-right">
+                <img src="images/scope_small.jpg">
+                <p><b class="title">Ping-Pong Playing Robot</b> - Senior Consulting Project for ADSYS - [<a href="https://www.youtube.com/watch?v=sxqWVtp4Vgo">video</a>]</p>
+                <p>Technical lead on team of 4 that designed, built, and programmed robot capable of playing ping-pong against human player. This was a technical demo for a high-speed vision system developed by a sponsor company. Was responsible for vision, detection, modeling, and state estimation of the ping-pong ball.</p>
+            </div>
+            <div class="project-left">
+                <img src="images/medea_small.jpg">
+                <p><b class="title">Autonomous Shore Navigation Using Marine Radar</b> - [<a href="#oceans"oceans>paper</a> | <a href="https://www.youtube.com/watch?v=pTDT7HkfwJM">video</a>]</p>
+                <p>Worked on an autonomoous marine surface vehicle, based on a 12 foot Catamaran. Developed overall software architecture, and worked on integrating position and state data from various sensors, writing motor controllers, and waypoint following, in addition fabricating and testing mechanical and electrical systems on autonomous surface vehicle. Designed a method to autonomously navigate around a shore using marine radar.</p>
+            </div>
+
+        </div>
+    </div>
+    
+  </body>
+</html>

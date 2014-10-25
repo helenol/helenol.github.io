@@ -1,0 +1,211 @@
+/* standard elements */
+a 
+{
+    color: #3300FF; 
+    text-decoration: none;
+    /*font-weight: 600; */
+}
+
+a:hover 
+{
+    text-decoration: none;
+    color: #9999EB;
+}
+
+body
+{
+    background-color:#D8D8D8;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+/* Header */
+.header 
+{
+    /* font-size: 52px; */
+    text-align: center;
+    width: 100%;
+    /* margin: 20px; */
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFFF;
+    border-bottom: 6px double #606060;
+}
+
+.header h1
+{
+    font-size: 36px;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+/* Main - Everything after the header. */
+.main
+{
+    margin: 20px auto 20px auto; 
+    /*padding: 20px;*/
+    text-align: left;
+    width: 900px;
+    max-width: 80%; 
+}
+
+.main h1
+{
+    padding: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main h2
+{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main img
+{
+    /* border: 2px solid #000000; */
+    float: left;
+    /* display: block; */
+    margin-right: 20px;
+
+}
+
+/* Content - Everything in the now white box. */
+.content
+{
+    background-color: #FFFFFF; 
+    border: 2px solid #cccccc;
+    margin: 5px auto 20px auto; 
+    padding: 10px 20px 10px 20px;
+    font-size: 16px; 
+    border-radius: 25px;
+    overflow: auto;
+}
+
+.content hr
+{
+    border: 0px;
+    height: 2px;
+    width: 100%;
+    background: #AAA;
+    /*background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));  */
+}
+
+
+.intro
+{
+    font-size: 18px;
+}
+
+/* .content a
+{
+    color: #ccffff;
+}
+
+.content a:hover 
+{
+    text-decoration: none;
+    color: #00ccff
+} */
+
+.content p
+{
+    margin-top: 0px;
+}
+
+/* Project tag. */
+.project
+{
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.project-left
+{
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.project-left img
+{
+    float: left;
+    /* TRBL */
+    margin: 5px 20px 5px 5px;
+}
+
+.project-right
+{
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.project-right img
+{
+    float: right;
+    margin: 5px 5px 5px 20px;
+}
+
+.title
+{
+    font-weight: 600;
+}
+
+/* Boxes for describing games. */
+.game
+{
+    text-align: top;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.game table, td
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.game .download
+{
+    margin-top: auto;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 15px;
+    display: block;
+}
+
+.game p
+{
+    margin: 0px;
+}
+
+.game .game-title
+{
+    font-weight: bold;
+}
+
+/* Footer */
+.footer
+{
+    margin: 5px auto 5px auto;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
