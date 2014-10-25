@@ -33,10 +33,14 @@ body
     margin: 0px;
     background-color: #FFFFFF;
     border-bottom: 6px double #606060;
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.35);
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.35);
 }
 
 .header h1
 {
+    font-family: 'Raleway', sans-serif;
     font-size: 36px;
     padding: 10px;
     margin: 0px;
@@ -47,31 +51,46 @@ body
 /* Main - Everything after the header. */
 .main
 {
-    margin: 20px auto 20px auto; 
+    margin: 0px auto 20px auto; 
     /*padding: 20px;*/
     text-align: left;
     width: 900px;
     max-width: 80%; 
+
+    background-color: #FFFFFF; 
+    border: 2px solid #cccccc;
+    margin: 0px auto 20px auto; 
+    padding: 10px 20px 10px 20px;
+    font-size: 16px; 
+    overflow: auto;
+
+    -webkit-box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.35);
+    box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.35);
+
+    z-index: -10;
 }
 
 .main h1
 {
-    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    /*padding: 0px;
     padding-bottom: 10px;
     padding-left: 20px;
-    margin: 0px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
+    margin: 0px; */
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: left;
 }
 
 .main h2
 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    /* padding: 0px;
+    margin: 0px; */
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
 }
 
 .main img
@@ -86,12 +105,11 @@ body
 /* Content - Everything in the now white box. */
 .content
 {
-    background-color: #FFFFFF; 
+    /*background-color: #FFFFFF; 
     border: 2px solid #cccccc;
-    margin: 5px auto 20px auto; 
-    padding: 10px 20px 10px 20px;
+    margin: 0px auto 20px auto; 
+    padding: 10px 20px 10px 20px; */
     font-size: 16px; 
-    border-radius: 25px;
     overflow: auto;
 }
 
@@ -101,10 +119,6 @@ body
     height: 2px;
     width: 100%;
     background: #AAA;
-    /*background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));  */
 }
 
 
@@ -166,40 +180,6 @@ body
     font-weight: 600;
 }
 
-/* Boxes for describing games. */
-.game
-{
-    text-align: top;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.game table, td
-{
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: left;
-    vertical-align: top;
-}
-
-.game .download
-{
-    margin-top: auto;
-    vertical-align: bottom;
-    position: absolute;
-    bottom: 15px;
-    display: block;
-}
-
-.game p
-{
-    margin: 0px;
-}
-
-.game .game-title
-{
-    font-weight: bold;
-}
 
 /* Footer */
 .footer
