@@ -33,9 +33,9 @@ body
     margin: 0px;
     background-color: #FFFFFF;
     border-bottom: 6px double #606060;
-    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.15);
-    -moz-box-shadow:0px 0px 10px 5px rgba(0,0,0,0.15);
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow:0px 0px 20px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
 }
 
 .header h1
@@ -64,9 +64,9 @@ body
     font-size: 16pt; 
     overflow: auto;
 
-    -webkit-box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.15);
-    -moz-box-shadow:0px 10px 10px 5px rgba(0,0,0,0.15);
-    box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow:0px 10px 20px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.15);
 
     z-index: -10;
 }
