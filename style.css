@@ -33,9 +33,9 @@ body
     margin: 0px;
     background-color: #FFFFFF;
     border-bottom: 6px double #606060;
-    -webkit-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.35);
-    -moz-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.35);
-    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow:0px 0px 10px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.15);
 }
 
 .header h1
@@ -64,9 +64,9 @@ body
     font-size: 16pt; 
     overflow: auto;
 
-    -webkit-box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.35);
-    -moz-box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.35);
-    box-shadow: 0px 20px 20px 10px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow:0px 10px 10px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.15);
 
     z-index: -10;
 }
@@ -87,7 +87,7 @@ body
 .main h2
 {
     font-family: 'Raleway', sans-serif;
-    /*margin: 1em auto auto auto; */
+    margin: auto;
     /* padding: 0px;
     margin: 0px; */
     font-size: 18pt;
@@ -150,12 +150,14 @@ body
 {
     clear: both;
     padding-bottom: 20px;
+    overflow: hidden;
 }
 
 .project-left
 {
     clear: both;
     padding-bottom: 20px;
+    overflow: hidden;
 }
 
 .project-left img
@@ -169,6 +171,7 @@ body
 {
     clear: both;
     padding-bottom: 20px;
+    overflow: hidden;
 }
 
 .project-right img
