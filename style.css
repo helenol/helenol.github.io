@@ -185,6 +185,16 @@ body
     font-weight: 600;
 }
 
+.project p
+{
+    padding-top: 0.5em;
+}
+
+.title_row
+{
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+}
 
 /* Footer */
 .footer
