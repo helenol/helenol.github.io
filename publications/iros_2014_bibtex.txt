@@ -1,0 +1,6 @@
+@inproceedings{honegger2014real,
+  title={Real-time and low latency embedded computer vision hardware based on a combination of fpga and mobile cpu},
+  author={Honegger, Dominik and Oleynikova, Helen and Pollefeys, Marc},
+  booktitle={International Conference on Intelligent Robots and Systems, Chicago, Illinois, USA},
+  year={2014}
+}

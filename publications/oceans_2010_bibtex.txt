@@ -1,0 +1,8 @@
+@inproceedings{oleynikova2010perimeter,
+  title={Perimeter patrol on autonomous surface vehicles using marine radar},
+  author={Oleynikova, Elena and Lee, Nicole B and Barry, Andrew J and Holler, Joseph and Barrett, David},
+  booktitle={OCEANS 2010 IEEE-Sydney},
+  pages={1--5},
+  year={2010},
+  organization={IEEE}
+}
