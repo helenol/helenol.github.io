@@ -1,0 +1,8 @@
+@inproceedings{oleynikova2015reactive,
+  title={Reactive Avoidance Using Embedded Stereo Vision for MAV Flight},
+  author={Oleynikova, Helen and Honegger, Dominik and Pollefeys, Marc},
+  booktitle={Robotics and Automation (ICRA), 2015 IEEE International Conference on},
+  pages={50--56},
+  year={2015},
+  organization={IEEE}
+}

@@ -34,8 +34,8 @@ body
     margin: 0px auto 0px auto;
     background-color: #FFFFFF;
     border-bottom: 6px double #606060;
-    border-left: 2px solid #606060;
-    border-right: 2px solid #606060;
+    border-left: 2px solid #909090;
+    border-right: 2px solid #909090;
     -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
     -moz-box-shadow:0px 0px 20px 5px rgba(0,0,0,0.15);
     box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
@@ -54,7 +54,7 @@ body
 /* Main - Everything after the header. */
 .main
 {
-    margin: 0px auto 20px auto; 
+    /*margin: 0px auto 20px auto; */
     /*padding: 20px;*/
     text-align: left;
     width: 900px;

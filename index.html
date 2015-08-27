@@ -16,9 +16,7 @@
     <div class="main">
         <div class="content">
             <img src="images/small_portrait.jpg">
-            <p  class="intro">Hey! I'm Helen. I'm a redhead with blue glasses. 
-            I'm also a second-year Master's student at <a href="http://www.ethz.ch">ETH Zürich</a>, 
-            where I study Robotics, Systems, and Control.</p>
+            <p  class="intro">Hey! I'm Helen. I'm currently a research assistant on the multicopter team at the <a href="http://www.asl.ethz.ch">Autonomous Systems Lab</a> at  <a href="http://www.ethz.ch">ETH Zürich</a>, where I recently finished my Masters in Robotics, Systems, and Control.</p>
             <p class="intro">I did my Bachelor at <a href="http://www.olin.edu">Olin College of Engineering</a> near Boston, where I also studied robotics.</p>
             <p class="intro">I also worked at <a href="http://goo.gl/maps/UWCPy">Google</a> on Street View for 2 years after my Bachelor.</p>
             <p>[<a href="mailto:helenoleynikova at gmail dot com">helenoleynikova at gmail dot com</a> | <a href="https://github.com/helenol">github</a>]</p>
@@ -26,8 +24,16 @@
 
         <h1>Publications</h1>
         <div class="content">
+            <p>Helen Oleynikova, Michael Burri, Simon Lynen, Roland Siegwart, "<b>Real-Time Visual-Inertial Localization for Aerial and Ground Robots</b>". To appear in <i>IEEE Int. Conf. on Intelligent Robots and Systems (IROS)</i>, September 2015.</p>
+
+            <p>Michael Burri, Helen Oleynikova, Markus Achtelik, Roland Siegwart, "<b>Real-Time Visual-Inertial Mapping, Re-localization and Planning Onboard MAVs in Previously Unknown Environments</b>".  To appear in <i>IEEE Int. Conf. on Intelligent Robots and Systems (IROS)</i>, September 2015.<br>
+            [<a href="https://www.youtube.com/watch?v=tuUMwcTJx8s">video</a>]
+            </p>
+
             <a name="reactive"></a>
-            <p>Helen Oleynikova, Dominik Honegger, and Marc Pollefeys. “<b>Reactive Avoidance Using Embedded Stereo Vision for MAV Flight</b>”. In Submission To <i>Proc. IEEE Int. Conf. on Robotics and Automation (ICRA)</i>, May 2015.</p>
+            <p>Helen Oleynikova, Dominik Honegger, and Marc Pollefeys. “<b>Reactive Avoidance Using Embedded Stereo Vision for MAV Flight</b>”. In <i>Proc. IEEE Int. Conf. on Robotics and Automation (ICRA)</i>, May 2015.<br>
+            [<a href="publications/icra_2015_reactive_avoidance.pdf">pdf</a> | <a href="publications/icra_2015_bibtex.txt">bibtex</a>]
+            </p>
             <a name="fpga"></a>
             <p>Dominik Honegger, Helen Oleynikova, and Marc Pollefeys. “<b>Real-time and Low Latency Embedded Computer Vision Hardware Based on a Combination of FPGA and Mobile CPU</b>”. In <i>IEEE Int. Conf. on Intelligent Robots and Systems (IROS)</i>, September 2014.<br>
             [<a href="publications/IROS_2014_realtime_lowlatency_hardware.pdf">pdf</a> | <a href="publications/iros_2014_bibtex.txt">bibtex</a> | <a href="https://www.youtube.com/watch?v=pM9fyV4e6lw">video</a>]</p>
@@ -39,9 +45,14 @@
         <h1>Selected Projects</h1>
         <h2>ETH Zürich</h2>
         <div class="content">
+            <div class="project-left">
+                <img src="images/heli_pioneer_small.jpg">
+                <p class="title_row"><b class="title">Online Visual-Inertial Based Localization for Robots</b></p>
+                <p>I worked on integrating embedded stereo camera and IMU combination and visual-inertial odometry into a sparse mapping framework. The main goal of this work was to enable real-time on-board localization against a sparse map. I then investigated building dense volumetric maps (used for path planning) from keyframes in the sparse map. We showed this working on-board an MAV and ground robot localizing against the same map, allowing the MAV to autonomously land on top of the ground robot given its location from localization.</p>
+            </div>
             <div class="project-right">
                 <img src="images/quad_small.jpg">
-                <p class="title_row"><b class="title">High-Speed Vision for Quadrotors</b> [<a href="#reactive">paper 1</a> | <a href="#fpga">paper 2</a>]</p>
+                <p class="title_row"><b class="title">High-Speed Vision for Quadrotors</b> [<a href="publications/IROS_2014_realtime_lowlatency_hardware.pdf">paper 1</a> | <a href="publications/icra_2015_reactive_avoidance.pdf">paper 2</a>]</p>
                 <p>I integrated a high-speed vision system on FPGA onto a quadrotor system and designed a system for doing high-speed obstacle avoidance on a computationally constrained platform. I also wrote position estimators and position controllers to allow the quad to operate indoors and outdoors without GPS or Vicon using the <a href="https://pixhawk.org/modules/px4flow">PX4 optical flow</a> sensor. I also wrote calibration and processing for the Android-based mobile platform on the FPGA vision system.</p>
             </div>
         </div>
