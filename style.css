@@ -1,12 +1,12 @@
 /* standard elements */
-a 
+a
 {
-    color: #3300FF; 
+    color: #3300FF;
     text-decoration: none;
     /*font-weight: 600; */
 }
 
-a:hover 
+a:hover
 {
     text-decoration: none;
     color: #9999EB;
@@ -20,15 +20,16 @@ body
     margin: 0px;
     padding: 0px;
     max-width: 100%;
+    font-weight: normal;
 }
 
 /* Header */
-.header 
+.header
 {
     /* font-size: 52px; */
     text-align: center;
     width: 900px;
-    max-width: 100%; 
+    max-width: 100%;
     /* margin: 20px; */
     padding: 0px 18px 0px 18px;
     margin: 0px auto 0px auto;
@@ -58,13 +59,13 @@ body
     /*padding: 20px;*/
     text-align: left;
     width: 900px;
-    max-width: 100%; 
+    max-width: 100%;
 
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
     border: 2px solid #cccccc;
-    margin: 0px auto 20px auto; 
+    margin: 0px auto 20px auto;
     padding: 10px 20px 10px 20px;
-    font-size: 16pt; 
+    font-size: 16pt;
     overflow: auto;
 
     -webkit-box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.15);
@@ -83,8 +84,8 @@ body
     margin: 0px; */
     font-size: 32pt;
     font-weight: lighter;
-    text-align: left;
-    margin: 1em auto 0 auto;
+    text-align: center;
+    margin: 0.2em auto 0.2em auto;
 }
 
 .main h2
@@ -95,7 +96,7 @@ body
     margin: 0px; */
     font-size: 18pt;
     font-weight: normal;
-    text-align: left;
+    text-align: center;
 }
 
 .main img
@@ -110,11 +111,11 @@ body
 /* Content - Everything in the now white box. */
 .content
 {
-    /*background-color: #FFFFFF; 
+    /*background-color: #FFFFFF;
     border: 2px solid #cccccc;
-    margin: 0px auto 20px auto; 
+    margin: 0px auto 20px auto;
     padding: 10px 20px 10px 20px; */
-    font-size: 12pt; 
+    font-size: 12pt;
     overflow: auto;
 }
 
@@ -137,7 +138,7 @@ body
     color: #ccffff;
 }
 
-.content a:hover 
+.content a:hover
 {
     text-decoration: none;
     color: #00ccff
@@ -168,6 +169,7 @@ body
     float: left;
     /* TRBL */
     margin: 5px 20px 5px 5px;
+    min-width: 150px;
 }
 
 .project-right

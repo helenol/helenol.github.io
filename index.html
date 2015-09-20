@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,italic,700,400,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Helen Oleynikova</title>
@@ -19,7 +19,7 @@
             <p  class="intro">Hey! I'm Helen. I'm currently a research assistant on the multicopter team at the <a href="http://www.asl.ethz.ch">Autonomous Systems Lab</a> at  <a href="http://www.ethz.ch">ETH Zürich</a>, where I recently finished my Masters in Robotics, Systems, and Control.</p>
             <p class="intro">I did my Bachelor at <a href="http://www.olin.edu">Olin College of Engineering</a> near Boston, where I also studied robotics.</p>
             <p class="intro">I also worked at <a href="http://goo.gl/maps/UWCPy">Google</a> on Street View for 2 years after my Bachelor.</p>
-            <p>[<a href="mailto:helenoleynikova at gmail dot com">helenoleynikova at gmail dot com</a> | <a href="https://github.com/helenol">github</a>]</p>
+            <p>[<a href="mailto:helenoleynikova at gmail dot com">helenoleynikova at gmail dot com</a> | <a href="https://github.com/helenol">github</a> | <a href="https://scholar.google.com/citations?user=aeJGZxIAAAAJ">google scholar</a>]</p>
         </div>
 
         <h1>Publications</h1>
@@ -50,9 +50,9 @@
                 <p class="title_row"><b class="title">Online Visual-Inertial Based Localization for Robots</b></p>
                 <p>I worked on integrating embedded stereo camera and IMU combination and visual-inertial odometry into a sparse mapping framework. The main goal of this work was to enable real-time on-board localization against a sparse map. I then investigated building dense volumetric maps (used for path planning) from keyframes in the sparse map. We showed this working on-board an MAV and ground robot localizing against the same map, allowing the MAV to autonomously land on top of the ground robot given its location from localization.</p>
             </div>
-            <div class="project-right">
-                <img src="images/quad_small.jpg">
-                <p class="title_row"><b class="title">High-Speed Vision for Quadrotors</b> [<a href="publications/IROS_2014_realtime_lowlatency_hardware.pdf">paper 1</a> | <a href="publications/icra_2015_reactive_avoidance.pdf">paper 2</a>]</p>
+            <div class="project-left">
+                <img src="images/fpga_vision_small.png">
+                <p class="title_row"><b class="title">High-Speed Vision for Quadrotors</b> [<a href="publications/iros_2014_realtime_lowlatency_hardware.pdf">paper 1</a> | <a href="publications/icra_2015_reactive_avoidance.pdf">paper 2</a>]</p>
                 <p>I integrated a high-speed vision system on FPGA onto a quadrotor system and designed a system for doing high-speed obstacle avoidance on a computationally constrained platform. I also wrote position estimators and position controllers to allow the quad to operate indoors and outdoors without GPS or Vicon using the <a href="https://pixhawk.org/modules/px4flow">PX4 optical flow</a> sensor. I also wrote calibration and processing for the Android-based mobile platform on the FPGA vision system.</p>
             </div>
         </div>
@@ -63,7 +63,7 @@
                 <p class="title_row"><b class="title">Street Number Detection from Street View Imagery</b></p>
                 <p>I worked on the pipeline used to automatically detect and transcribe street numbers from imagery in order to improve maps data.</p>
             </div>
-            <div class="project-right">
+            <div class="project-left">
                 <img src="images/sv2_small.jpg">
                 <p class="title_row"><b class="title">Automatic Image Enhancement for Older Imagery</b></p>
                 <p>We created a system for automatically enhancing images using single-image HDR techniques. Learned ideal parameters for the algorithm by training a classifier based on data from a user study of preferences.</p>
@@ -77,7 +77,7 @@
 
         <h2>Willow Garage</h2>
         <div class="content">
-            <div class="project-right">
+            <div class="project-left">
                 <img src="images/turtlebot_arm_small.png">
                 <p class="title_row"><b class="title">TurtleBot Arm - Calibration and Applications</b> [<a href="http://wiki.ros.org/turtlebot_arm?distro=electric">website</a>]</p>
                 <p>Worked on a low-cost robot arm for hobbyist robotics. Built a system for robust camera-to-arm calibration, created documentation and assembly instructions for hobbyists, and created tools and demos.</p>
@@ -91,7 +91,7 @@
 
         <h2>Olin College</h2>
         <div class="content">
-            <div class="project-right">
+            <div class="project-left">
                 <img src="images/scope_small.jpg">
                 <p class="title_row"><b class="title">Ping-Pong Playing Robot</b> &nbsp; Senior Consulting Project for ADSYS [<a href="https://www.youtube.com/watch?v=sxqWVtp4Vgo">video</a>]</p>
                 <p>Technical lead on team of 4 that designed, built, and programmed robot capable of playing ping-pong against human player. This was a technical demo for a high-speed vision system developed by a sponsor company. Was responsible for vision, detection, modeling, and state estimation of the ping-pong ball.</p>
