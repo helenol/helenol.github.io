@@ -1,0 +1,7 @@
+@inproceedings{oleynikova2015real-time,
+  author={Oleynikova, Helen and Burri, Michael and Lynen, Simon and Siegwart, Roland},
+  booktitle={Intelligent Robots and Systems (IROS 2015), 2015 IEEE/RSJ International Conference on},
+  title={Real-Time Visual-Inertial Localization for Aerial and Ground Robots},
+  year={2015},
+  month={Sept}
+}
