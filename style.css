@@ -95,6 +95,7 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
   /*float: left; */
   width: auto;
   max-width: 100%;
+  min-width: 100px;
   overflow: hidden;
 }
 
