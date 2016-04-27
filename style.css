@@ -1,15 +1,15 @@
 /* standard elements */
 a
 {
-    color: #3300FF;
+    color: #00a3cc;
     text-decoration: none;
-    /*font-weight: 600; */
+    font-weight: 600;
 }
 
 a:hover
 {
     text-decoration: none;
-    color: #9999EB;
+    color: #00ccff;
 }
 
 body
@@ -27,10 +27,23 @@ body
 h1
 {
     font-family: 'Raleway', sans-serif;
-    font-size: 36px;
-    padding: 10px;
-    margin: 0px;
+    font-size: 2em;
+    padding: 0.2em;
+    margin: 0em;
     text-align: center;
+}
+
+h2
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    padding: 0.2em;
+    margin: 0em;
+    text-align: left;
+}
+
+iframe {
+  margin: 0.5em;
 }
 
 /* Break up into pages/sections. Style taken from
@@ -48,30 +61,35 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
   /* More specific settings. */
   text-align: left;
   width: 900px;
-  max-width: 100%;
+  max-width: 90%;
   margin: 1em auto 1em auto;
   padding: 1em 2em 1em 2em;
 }
 
 .intro {
-  display:block;
-}
-
-.intro:after {
-  content:"";
-  display:block;
-  clear:both;
+  display: table;
+  width: 100%;
+  font-size: 1em;
 }
 
 .portrait {
+  display:table-cell;
+  vertical-align: top;
+  margin-right: 2em;
+  padding: 1em 2em 1em 0em;
+}
+
+.portrait img {
   float: left;
-  width: 20%;
 }
 
 .intro_text {
-  width: 80%;
-  float: right;
-  font-size: 14pt;
+    display:table-cell;
+  vertical-align: top;
+}
+
+.pub_list {
+  margin-left: 5%;
 }
 
 /* Main - Everything after the header. */
@@ -124,7 +142,7 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
 .main img
 {
     /* border: 2px solid #000000; */
-    float: left;
+    /*float: left; */
     /* display: block; */
     margin-right: 20px;
 
@@ -137,7 +155,7 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
     border: 2px solid #cccccc;
     margin: 0px auto 20px auto;
     padding: 10px 20px 10px 20px; */
-    font-size: 12pt;
+    font-size: 1em;
     overflow: auto;
 }
 
