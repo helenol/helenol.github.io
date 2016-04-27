@@ -1,111 +1,102 @@
 /* standard elements */
 a
 {
-    color: #3300FF;
+    color: #00a3cc;
     text-decoration: none;
-    /*font-weight: 600; */
+    font-weight: 600;
 }
 
 a:hover
 {
     text-decoration: none;
-    color: #9999EB;
+    color: #00ccff;
+}
+
+b
+{
+  font-weight: 600;
 }
 
 body
 {
     background-color:#D8D8D8;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #000000;
     margin: 0px;
     padding: 0px;
     max-width: 100%;
     font-weight: normal;
+    background-color: #eee;
 }
 
-/* Header */
-.header
+h1
 {
-    /* font-size: 52px; */
-    text-align: center;
-    width: 900px;
-    max-width: 100%;
-    /* margin: 20px; */
-    padding: 0px 18px 0px 18px;
-    margin: 0px auto 0px auto;
-    background-color: #FFFFFF;
-    border-bottom: 6px double #606060;
-    border-left: 2px solid #909090;
-    border-right: 2px solid #909090;
-    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
-    -moz-box-shadow:0px 0px 20px 5px rgba(0,0,0,0.15);
-    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
-}
-
-.header h1
-{
-    font-family: 'Raleway', sans-serif;
-    font-size: 36px;
-    padding: 10px;
-    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    padding: 0.2em;
+    margin: 0em;
     text-align: center;
 }
 
-
-/* Main - Everything after the header. */
-.main
+h2
 {
-    /*margin: 0px auto 20px auto; */
-    /*padding: 20px;*/
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 0.2em;
+    margin: 0em;
     text-align: left;
-    width: 900px;
-    max-width: 100%;
-
-    background-color: #FFFFFF;
-    border: 2px solid #cccccc;
-    margin: 0px auto 20px auto;
-    padding: 10px 20px 10px 20px;
-    font-size: 16pt;
-    overflow: auto;
-
-    -webkit-box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.15);
-    -moz-box-shadow:0px 10px 20px 5px rgba(0,0,0,0.15);
-    box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.15);
-
-    z-index: -10;
 }
 
-.main h1
-{
-    font-family: 'Raleway', sans-serif;
-    /*padding: 0px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    margin: 0px; */
-    font-size: 32pt;
-    font-weight: lighter;
-    text-align: center;
-    margin: 0.2em auto 0.2em auto;
+iframe {
+  margin: 0.5em;
 }
 
-.main h2
-{
-    font-family: 'Raleway', sans-serif;
-    margin: auto;
-    /* padding: 0px;
-    margin: 0px; */
-    font-size: 18pt;
-    font-weight: normal;
-    text-align: center;
+/* Break up into pages/sections. Style taken from
+https://github.com/delight-im/HTML-Sheets-of-Paper */
+.page {
+  /* Styles for better appearance on screens only -- are reset to defaults in print styles later */
+
+  /* Divide single pages with some space and center all pages horizontally */
+  /*margin: 10em auto; */
+  /* Define a white paper background that sticks out from the darker overall background */
+  background: #fff;
+  /* Show a drop shadow beneath each page */
+  box-shadow: 0 4px 5px rgba(75, 75, 75, 0.2);
+
+  /* More specific settings. */
+  text-align: left;
+  width: 900px;
+  max-width: 90%;
+  margin: 1em auto 1em auto;
+  padding: 1em 2em 1em 2em;
 }
 
-.main img
-{
-    /* border: 2px solid #000000; */
-    float: left;
-    /* display: block; */
-    margin-right: 20px;
+.intro {
+  display: table;
+  width: 100%;
+  font-size: 1em;
+}
 
+.portrait {
+  display:table-cell;
+  vertical-align: top;
+  margin-right: 2em;
+  padding: 1em 2em 1em 0em;
+}
+
+.portrait img {
+  float: left;
+}
+
+.intro_text {
+    display:table-cell;
+  vertical-align: top;
+}
+
+.pub_list {
+  margin-left: 5%;
 }
 
 /* Content - Everything in the now white box. */
@@ -115,7 +106,7 @@ body
     border: 2px solid #cccccc;
     margin: 0px auto 20px auto;
     padding: 10px 20px 10px 20px; */
-    font-size: 12pt;
+    font-size: 1em;
     overflow: auto;
 }
 
@@ -126,24 +117,6 @@ body
     width: 100%;
     background: #AAA;
 }
-
-
-.intro
-{
-    font-size: 14pt;
-}
-
-/* .content a
-{
-    color: #ccffff;
-}
-
-.content a:hover
-{
-    text-decoration: none;
-    color: #00ccff
-} */
-
 .content p
 {
     margin-top: 0px;
