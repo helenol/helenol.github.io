@@ -27,6 +27,7 @@ body
     max-width: 100%;
     font-weight: normal;
     background-color: #eee;
+    font-size: 1em;
 }
 
 h1
@@ -179,6 +180,6 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
 {
     margin: 5px auto 5px auto;
     text-align: center;
-    font-size: 12px;
+    font-size: 1em;
     color: #666666;
 }
