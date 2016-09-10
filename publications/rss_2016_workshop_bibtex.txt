@@ -1,0 +1,6 @@
+@inproceedings{oleynikova2016signed,
+  title={Signed Distance Fields: A Natural Representation for Both Mapping and Planning},
+  author={Oleynikova, Helen and Millane, Alex and Taylor, Zachary and Galceran, Enric and Nieto, Juan and Siegwart, Roland},
+  booktitle={Workshop on Geometry and Beyond, RSS 2016},
+  year={2016}
+}
