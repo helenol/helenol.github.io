@@ -1,0 +1,8 @@
+@article{bircher2016receding,
+  title={Receding horizon path planning for 3D exploration and surface inspection},
+  author={Bircher, Andreas and Kamel, Mina and Alexis, Kostas and Oleynikova, Helen and Siegwart, Roland},
+  journal={Autonomous Robots},
+  pages={1--16},
+  year={2016},
+  publisher={Springer US}
+}

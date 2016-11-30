@@ -1,0 +1,6 @@
+@article{oleynikova2016voxblox,
+  title={Voxblox: Building 3D Signed Distance Fields for Planning},
+  author={Oleynikova, Helen and Taylor, Zachary and Fehr, Marius and Nieto, Juan and Siegwart, Roland},
+  journal={arXiv preprint arXiv:1611.03631},
+  year={2016}
+}
