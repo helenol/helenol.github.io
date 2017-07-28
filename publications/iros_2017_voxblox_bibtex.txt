@@ -1,0 +1,6 @@
+@inproceedings{oleynikova2017voxblox,
+  author={Oleynikova, Helen and Taylor, Zachary and Fehr, Marius and Siegwart, Roland and  Nieto, Juan},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  title={Voxblox: Incremental 3D Euclidean Signed Distance Fields for On-Board MAV Planning},
+  year={2017}
+}

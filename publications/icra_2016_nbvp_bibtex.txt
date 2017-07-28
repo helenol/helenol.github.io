@@ -1,0 +1,8 @@
+@inproceedings{bircher2016receding,
+  title={Receding horizon "next-best-view" planner for 3D exploration},
+  author={Bircher, Andreas and Kamel, Mina and Alexis, Kostas and Oleynikova, Helen and Siegwart, Roland},
+  booktitle={2016 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={1462--1468},
+  year={2016},
+  organization={IEEE}
+}
