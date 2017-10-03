@@ -1,0 +1,6 @@
+@article{oleynikova2017safe,
+  title={Safe Local Exploration for Replanning in Cluttered Unknown Environments for Micro-Aerial Vehicles},
+  author={Oleynikova, Helen and Taylor, Zachary and Nieto, Juan and Siegwart, Roland},
+  journal={arXiv preprint arXiv:1710.00604},
+  year={2017}
+}

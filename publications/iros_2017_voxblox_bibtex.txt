@@ -4,3 +4,5 @@
   title={Voxblox: Incremental 3D Euclidean Signed Distance Fields for On-Board MAV Planning},
   year={2017}
 }
+
+Hahahaha apparently this is the professional-designed logo (a rejected one) that the designer made for maplab: 
