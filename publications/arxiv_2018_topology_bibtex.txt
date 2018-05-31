@@ -1,0 +1,6 @@
+@article{oleynikova2018sparse,
+  title={Sparse 3D Topological Graphs for Micro-Aerial Vehicle Planning},
+  author={Oleynikova, Helen and Taylor, Zachary and Siegwart, Roland and Nieto, Juan},
+  journal={arXiv preprint arXiv:1803.04345},
+  year={2018}
+}
