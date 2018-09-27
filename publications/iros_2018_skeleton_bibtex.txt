@@ -1,0 +1,6 @@
+@inproceedings{oleynikova2018sparse,
+  author={Oleynikova, Helen and Taylor, Zachary and Siegwart, Roland and  Nieto, Juan},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  title={Sparse 3D Topological Graphs for Micro-Aerial Vehicle Planning},
+  year={2018}
+}
