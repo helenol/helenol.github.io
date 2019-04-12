@@ -1,0 +1,6 @@
+@article{oleynikova2018complete,
+  title={A Complete System for Vision-Based Micro-Aerial Vehicle Mapping, Planning, and Flight in Cluttered Environments},
+  author={Helen Oleynikova and Zachary Taylor and Alexander Millane and Roland Siegwart and Juan Nieto},
+  journal={arXiv preprint arXiv:1812.03892},
+  year={2018}
+}
