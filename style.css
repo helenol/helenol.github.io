@@ -68,31 +68,30 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
 
   /* More specific settings. */
   text-align: left;
-  width: 900px;
-  max-width: 90%;
+  width: 90%;
+  max-width: 900px;
   margin: 1em auto 1em auto;
   padding: 1em 2em 1em 2em;
 }
 
 .intro {
-  display: table;
-  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
   max-width: 100%;
-  font-size: 1em;
+  vertical-align: top;
 }
 
 .portrait {
-  display:table-cell;
+  flex-grow: 0;
   vertical-align: top;
   margin-right: 2em;
   padding: 1em 2em 1em 0em;
-  max-width: 50%;
   width: 300px;
   overflow: hidden;
 }
 
 .portrait img {
-  /*float: left; */
   width: auto;
   max-width: 100%;
   min-width: 100px;
@@ -100,7 +99,8 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
 }
 
 .intro_text {
-    display:table-cell;
+  flex-grow: 4;
+  flex: 50%;
   vertical-align: top;
 }
 

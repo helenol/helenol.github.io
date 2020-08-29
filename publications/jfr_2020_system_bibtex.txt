@@ -1,0 +1,10 @@
+@article{oleynikova2020open,
+  title={An open-source system for vision-based micro-aerial vehicle mapping, planning, and flight in cluttered environments},
+  author={Oleynikova, Helen and Lanegger, Christian and Taylor, Zachary and Pantic, Michael and Millane, Alexander and Siegwart, Roland and Nieto, Juan},
+  journal={Journal of Field Robotics},
+  volume={37},
+  number={4},
+  pages={642--666},
+  year={2020},
+  publisher={Wiley Online Library}
+}

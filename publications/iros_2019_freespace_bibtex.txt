@@ -1,0 +1,6 @@
+@article{millane2019free,
+  title={Free-Space Features: Global Localization in 2D Laser SLAM Using Distance Function Maps},
+  author={Millane, Alexander and Oleynikova, Helen and Nieto, Juan and Siegwart, Roland and Cadena, C{\'e}sar},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2019}
+}

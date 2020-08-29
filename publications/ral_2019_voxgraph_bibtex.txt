@@ -1,0 +1,10 @@
+@article{reijgwart2019voxgraph,
+  title={Voxgraph: Globally Consistent, Volumetric Mapping using Signed Distance Function Submaps},
+  author={Reijgwart, Victor and Millane, Alexander and Oleynikova, Helen and Siegwart, Roland and Cadena, Cesar and Nieto, Juan},
+  journal={IEEE Robotics and Automation Letters},
+  volume={5},
+  number={1},
+  pages={227--234},
+  year={2019},
+  publisher={IEEE}
+}

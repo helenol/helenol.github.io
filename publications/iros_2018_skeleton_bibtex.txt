@@ -1,6 +1,6 @@
-@inproceedings{oleynikova2018sparse,
-  author={Oleynikova, Helen and Taylor, Zachary and Siegwart, Roland and  Nieto, Juan},
+@article{millane2019free,
+  title={Free-Space Features: Global Localization in 2D Laser SLAM Using Distance Function Maps},
+  author={Millane, Alexander and Oleynikova, Helen and Nieto, Juan and Siegwart, Roland and Cadena, C{\'e}sar},
   booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  title={Sparse 3D Topological Graphs for Micro-Aerial Vehicle Planning},
-  year={2018}
+  year={2019}
 }
