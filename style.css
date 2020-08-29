@@ -84,6 +84,7 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
 
 .portrait {
   flex-grow: 0;
+  flex-shrink: 0.5;
   vertical-align: top;
   margin-right: 2em;
   padding: 1em 2em 1em 0em;
