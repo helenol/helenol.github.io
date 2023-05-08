@@ -1,0 +1,7 @@
+@article{millane2021freetures,
+  title={Freetures: Localization in signed distance function maps},
+  author={Millane, Alexander James and Oleynikova, Helen and Lanegger, Christian and Delmerico, Jeffrey and Nieto, Juan and Siegwart, Roland and Pollefeys, Marc and Lerma, Cesar Cadena},
+  journal={IEEE Robotics and Automation Letters},
+  year={2021},
+  publisher={IEEE}
+}
