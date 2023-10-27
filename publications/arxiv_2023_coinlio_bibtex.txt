@@ -1,0 +1,8 @@
+@misc{pfreundschuh2023coinlio,
+      title={COIN-LIO: Complementary Intensity-Augmented LiDAR Inertial Odometry},
+      author={Patrick Pfreundschuh and Helen Oleynikova and Cesar Cadena and Roland Siegwart and Olov Andersson},
+      year={2023},
+      eprint={2310.01235},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}

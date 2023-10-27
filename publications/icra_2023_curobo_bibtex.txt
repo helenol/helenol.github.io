@@ -1,0 +1,8 @@
+@inproceedings{sundaralingam2023curobo,
+  title={CuRobo: Parallelized Collision-Free Robot Motion Generation},
+  author={Sundaralingam, Balakumar and Hari, Siva Kumar Sastry and Fishman, Adam and Garrett, Caelan and Van Wyk, Karl and Blukis, Valts and Millane, Alexander and Oleynikova, Helen and Handa, Ankur and Ramos, Fabio and others},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={8112--8119},
+  year={2023},
+  organization={IEEE}
+}

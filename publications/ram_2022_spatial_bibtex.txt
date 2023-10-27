@@ -1,0 +1,10 @@
+@article{delmerico2022spatial,
+  title={Spatial computing and intuitive interaction: Bringing mixed reality and robotics together},
+  author={Delmerico, Jeffrey and Poranne, Roi and Bogo, Federica and Oleynikova, Helen and Vollenweider, Eric and Coros, Stelian and Nieto, Juan and Pollefeys, Marc},
+  journal={IEEE Robotics \& Automation Magazine},
+  volume={29},
+  number={1},
+  pages={45--57},
+  year={2022},
+  publisher={IEEE}
+}
