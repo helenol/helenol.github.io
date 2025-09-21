@@ -192,3 +192,75 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
     font-size: 1em;
     color: #666666;
 }
+
+/* Open-Source Software grid */
+.oss-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  
+  /* Grayscale post-it style */
+  .oss-note {
+    --note-rotate: 0deg;
+    background: #f7f7f7;                 /* light paper */
+    border: 2px solid #d0d0d0;           /* pencil-ish outline */
+    border-radius: 10px;
+    padding: 14px 14px 12px;
+    position: relative;
+    transform: rotate(var(--note-rotate));
+    box-shadow:
+      0 1px 0 rgba(0,0,0,0.05),
+      0 6px 16px rgba(0,0,0,0.08);
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  
+  /* little tape strip, also grayscale */
+  .oss-note::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 28px;
+    width: 64px;
+    height: 16px;
+    background: rgba(0,0,0,0.08);
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 3px;
+    transform: rotate(-3deg);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.65) inset;
+  }
+  
+  .oss-note:hover {
+    transform: rotate(calc(var(--note-rotate) * 0.3)) translateY(-2px);
+    box-shadow:
+      0 1px 0 rgba(0,0,0,0.05),
+      0 10px 24px rgba(0,0,0,0.12);
+  }
+  
+  .oss-note h3 {
+    margin: 0 0 4px;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #1f1f1f;
+  }
+  
+  .oss-note .desc {
+    margin: 0 0 8px;
+    font-size: 14px;
+    color: #4a4a4a;
+  }
+  
+  .oss-note .links {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .oss-note .links a {
+    color: #222;
+    text-decoration: none;
+    border-bottom: 1px dotted #777;
+  }
+  
+  .oss-note .links a:hover {
+    border-bottom-style: solid;
+  }
